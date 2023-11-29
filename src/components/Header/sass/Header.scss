@@ -1,0 +1,77 @@
+.header {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 80px;
+    width: 100%;
+    // border-bottom: 1px solid grey;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    &__nav {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        &--container {
+            display: flex;
+            align-items: center;
+
+            & img {
+                margin-left: 10px;
+            }
+        }
+
+        &--initials {
+            line-height: 80px;
+            color: white;
+            font-size: 20px;
+        }
+
+        &--list {
+            color: white;
+            list-style: none;
+            display: flex;
+            margin: 0;
+            margin-right: 20px;
+            & li {
+                line-height: 70px;
+                font-size: 25px;
+                font-weight: 300;
+                margin-right: 20px;
+
+                & a {
+                    color: white;
+                    text-decoration: none;
+                    position: relative;
+                    &:hover {
+                      }
+                      &::after {
+                        content: '';
+                        position: absolute;
+                        border-radius: 20px;
+                        width: 100%;
+                        transform: scaleX(0);
+                        height: 3px;
+                        bottom: -4px;
+                        left: 0;
+                        background-image: linear-gradient(to right, 
+            #ff8a00 0%, 
+            #ff5e00 20%, 
+            #ff2d42 40%, 
+            #e52e71 60%, 
+            #b538ff 80%, 
+            #6057ff 100%);
+                        transform-origin: bottom right;
+                        transition: transform 0.4s ease-out;
+                      }
+                      &:hover::after {
+                        transform: scaleX(1);
+                        transform-origin: bottom left;
+                      }
+                }
+            }
+        }
+    }
+}
+
+.container {
+
+}

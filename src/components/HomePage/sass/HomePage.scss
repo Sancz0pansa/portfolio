@@ -1,4 +1,239 @@
 .container {
-    height: 100vh;
     width: 70%;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: 'Josefin Sans', sans-serif;
+    
+    &__section {
+        font-size: 23px;
+        line-height: 32.25px;
+
+        &--portfolioaxis{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        &--column {
+            width: 47%;
+            // background-color: wheat;
+            height: 300px;
+
+            &-element {
+                height: 300px;
+                background-size: cover;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                & a {
+                    text-decoration: none;
+                    background-clip: text;
+                    color: transparent;
+                    background-size: 100%;
+                    opacity: 1;
+                    background-image: linear-gradient(to right, 
+                    #ff8a00 0%, 
+                    #ff5e00 20%, 
+                    #ff2d42 40%, 
+                    #e52e71 60%, 
+                    #b538ff 80%, 
+                    #6057ff 100%);
+                    position: relative;
+                    z-index: 100;
+                    &.demo {
+                        &::before {
+                            background-clip: text;
+                            background-image: linear-gradient(to right, 
+                            #6057ff 0%,
+                            #b538ff 20%,
+                            #e52e71 40%,
+                            #ff2d42 60%,
+                            #ff5e00 80%, 
+                            #ff8a00 100%,
+                        );
+                        
+                            content: 'DEMO';  
+                        
+                          
+                        display: block;
+                        height: 100%;
+                        width: 100%;
+                        position: absolute;
+                        top: 1; left: 0;
+                        opacity: 0;
+                        z-index: 100;
+                        transition: opacity 0.3s ease-in-out;
+                        }
+                    }
+
+                    &.code {
+                        &::before {
+                            background-clip: text;
+                            background-image: linear-gradient(to right, 
+                            #6057ff 0%,
+                            #b538ff 20%,
+                            #e52e71 40%,
+                            #ff2d42 60%,
+                            #ff5e00 80%, 
+                            #ff8a00 100%,
+                        );
+                        content: 'CODE';  
+                        display: block;
+                        height: 100%;
+                        width: 100%;
+                        position: absolute;
+                        top: 1; left: 0;
+                        opacity: 0;
+                        z-index: 100;
+                        transition: opacity 0.3s ease-in-out;
+                        }
+                    }
+                    
+                
+                    &:hover {
+                        &:before {
+                          opacity: 1; 
+                        }
+                     }
+                }
+
+                & p {
+                    margin-top: 0;
+                }
+                &.mybike {
+                    background-image: url('../../../images/MyBike.png');
+                }
+            }
+        }
+
+        &--arrow {
+
+            width: 1%;
+            background-image: linear-gradient(
+            #ff8a00 0%, 
+            #ff5e00 20%, 
+            #ff2d42 40%, 
+            #e52e71 60%, 
+            #b538ff 80%, 
+            #6057ff 100%);
+            border-radius: 15px;
+        }
+        & p {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+           width: 80%;
+           text-align: center;
+           text-shadow: 
+           -1px -1px 0 #000,  
+            1px -1px 0 #000,
+           -1px  1px 0 #000,
+            1px  1px 0 #000;
+
+           & a {
+            text-decoration: none;
+            background-clip: text;
+            color: transparent;
+            background-size: 100%;
+            opacity: 1;
+            background-image: linear-gradient(to right, 
+            #ff8a00 0%, 
+            #ff5e00 20%, 
+            #ff2d42 40%, 
+            #e52e71 60%, 
+            #b538ff 80%, 
+            #6057ff 100%);
+            position: relative;
+            z-index: 100;
+            &::before {
+                background-clip: text;
+                background-image: linear-gradient(to right, 
+                #6057ff 0%,
+                #b538ff 20%,
+                #e52e71 40%,
+                #ff2d42 60%,
+                #ff5e00 80%, 
+                #ff8a00 100%,
+            );
+            content: 'HERE';    
+            display: block;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 1; left: 0;
+            opacity: 0;
+            z-index: 100;
+            transition: opacity 0.3s ease-in-out;
+            }
+            &:hover {
+                &:before {
+                  opacity: 1; 
+                }
+             }
+           } 
+
+           & span {
+          
+            text-shadow: none;
+            &.colorfull {
+                font-size: 34px;
+                background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(to right, 
+        #ff8a00 0%, 
+        #ff5e00 20%, 
+        #ff2d42 40%, 
+        #e52e71 60%, 
+        #b538ff 80%, 
+        #6057ff 100%);
+            }
+           }
+        }
+    }
+    &__picture {
+        margin-bottom: 50px;
+        border-radius: 300px;
+        background-image: url(../../../images/me.png);
+        height: 524px;
+        width: 524px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    & h1 {
+        font-weight: 100;
+        text-align: center;
+        letter-spacing: 12px;
+        font-size: 96px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+
+        &.small {
+            font-size: 60px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+    }
+
+    & h2 {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-top: 15px;
+        font-size: 24px;
+        font-weight: 700;
+        width: fit-content;
+        background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(to right, 
+        #ff8a00 0%, 
+        #ff5e00 20%, 
+        #ff2d42 40%, 
+        #e52e71 60%, 
+        #b538ff 80%, 
+        #6057ff 100%);
+    }
 }
