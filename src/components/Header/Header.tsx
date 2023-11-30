@@ -11,7 +11,7 @@ export const Header: React.FC = () => (
             <div className='header__nav--container'>
                 <ul className='header__nav--list'>
                     <li><a href='#about'>About</a></li>
-                    <li><a href='#'>Portfolio</a></li>
+                    <li><a href='#portfolio'>Portfolio</a></li>
                     <li><a href='#'>Contact</a></li>
                 </ul>
                 {/* <img src={linkedInLogo} width='50px' height='50px' alt='LinkedIn logo' />

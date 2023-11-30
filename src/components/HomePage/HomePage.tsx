@@ -24,21 +24,50 @@ I firmly believe that life is a balance between work and the pursuit of passions
             <p><span><a href='https://github.com/Sancz0pansa?tab=repositories' target='_blank' rel="noreferrer">HERE</a> you can checkout all my repositories (around 60 project's both comprehensive applications and task-based projects, including team projects).<br/><br/> Let's check the most interesting ones:</span></p>
             <div className='container__section--portfolioaxis'>
                 <div className='container__section--column'>
-                    <div className='container__section--column-element mybike'></div>
+                    <div className='container__section--column-element mybike' onClick={() => window.open('https://sancz0pansa.github.io/MyBike-Landing/', '_blank')}></div>
+
+                    <div className='container__section--column-element'>
+                    <p>App (task manager) done by using React.</p>
+                        <div>
+                            <a href='https://sancz0pansa.github.io/todo-app-project/' className='demo' target='_blank' rel="noreferrer">DEMO </a>AND
+                            <a href='https://github.com/Sancz0pansa/todo-app-project' className='code' target='_blank' rel="noreferrer"> CODE</a>
+                        </div>
+                        
+                    </div>
+                    <div className='container__section--column-element nicegadgets' onClick={() => window.open('https://fe-may23-bugbusters.github.io/product_catalog/', '_blank')}></div>
                 </div>
                 <div className='container__section--arrow'></div>
                 <div className='container__section--column'>
                     <div className='container__section--column-element'>
-                        <p>Landing page for a bicycle retail company.<br/>
+                    <p>Landing page for a bicycle retail company.<br/>
                         Project made using: HTML5, SCSS, BEM.</p>
-                        <a href='https://sancz0pansa.github.io/MyBike-Landing/' className='demo' target='_blank' rel="noreferrer">DEMO</a>AND
-                        <a href='https://github.com/Sancz0pansa/MyBike-Landing' className='code' target='_blank' rel="noreferrer">CODE</a>
+                        <div>
+                          <a href='https://sancz0pansa.github.io/MyBike-Landing/' className='demo' target='_blank' rel="noreferrer">DEMO</a> AND 
+                        <a href='https://github.com/Sancz0pansa/MyBike-Landing' className='code' target='_blank' rel="noreferrer"> CODE</a>
+                          </div>
+                    </div>
+
+                    <div className='container__section--column-element todo' onClick={() => window.open('https://sancz0pansa.github.io/todo-app-project/', '_blank')}></div>
+                    
+                    <div className='container__section--column-element'>
+                    <p>Led a team of five programmers developing a responsive front-end for a phone retail application.
+                         Implemented a secure, in-house server and database for authentication and transactions.
+                          Achieved project success through collaboration and a strong security focus, documented for future updates.</p>
+                          <div>
+                          <a href='https://fe-may23-bugbusters.github.io/product_catalog/' className='demo' target='_blank' rel="noreferrer">DEMO</a> AND 
+                        <a href='https://github.com/orgs/fe-may23-BugBusters/repositories' className='code' target='_blank' rel="noreferrer"> CODE</a>
+                          </div>
+                        
                     </div>
                 </div>
             </div>
             
             
             
+            </section>
+
+            <section id='contact' className='container__section'>
+            <h1 className='small'>CONTACT</h1>
             </section>
         </div>
     </>
