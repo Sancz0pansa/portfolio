@@ -12,7 +12,7 @@ export const Header: React.FC = () => (
                 <ul className='header__nav--list'>
                     <li><a href='#about'>About</a></li>
                     <li><a href='#portfolio'>Portfolio</a></li>
-                    <li><a href='#'>Contact</a></li>
+                    <li><a href='#employ'>Employ Me</a></li>
                 </ul>
                 {/* <img src={linkedInLogo} width='50px' height='50px' alt='LinkedIn logo' />
                 <img src={gitHubLogo} width='43px' height='43px' alt='GitHub logo' /> */}
