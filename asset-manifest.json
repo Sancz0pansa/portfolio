@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1621adcf.css",
+    "main.js": "/portfolio/static/js/main.fc164aa0.js",
+    "static/js/496.69ca0a3f.chunk.js": "/portfolio/static/js/496.69ca0a3f.chunk.js",
+    "static/media/mefull.jpg": "/portfolio/static/media/mefull.1137e7ac6b6454ee827c.jpg",
+    "static/media/MyBike.png": "/portfolio/static/media/MyBike.4642fb50f92a8a745f98.png",
+    "static/media/nicegadgets.png": "/portfolio/static/media/nicegadgets.a451a360d222d5f96692.png",
+    "static/media/me.png": "/portfolio/static/media/me.686e88d78a984d7a2059.png",
+    "static/media/phpLogo.png": "/portfolio/static/media/phpLogo.5eb77dd28bda8a45b2ca.png",
+    "static/media/reactLogo.png": "/portfolio/static/media/reactLogo.2f2532db663fd5ec5f95.png",
+    "static/media/postgresqlLogo.png": "/portfolio/static/media/postgresqlLogo.ca9255f4d9e5eb6df760.png",
+    "static/media/sequelizeLogo.png": "/portfolio/static/media/sequelizeLogo.8c389dc392d00f76753b.png",
+    "static/media/sassLogo.png": "/portfolio/static/media/sassLogo.10c0cf1b6dc92c5581c8.png",
+    "static/media/tsLogo.png": "/portfolio/static/media/tsLogo.b601ddaf78fe765ae9e6.png",
+    "static/media/jsLogo.png": "/portfolio/static/media/jsLogo.704d7658c99ce8a8ca63.png",
+    "static/media/cssLogo.png": "/portfolio/static/media/cssLogo.a10843a56fce02ed7b8d.png",
+    "static/media/htmlLogo.png": "/portfolio/static/media/htmlLogo.29f420a1b86745478c26.png",
+    "static/media/nodeLogo.png": "/portfolio/static/media/nodeLogo.7b0f4700ed6ce39afdff.png",
+    "static/media/mysqlLogo.png": "/portfolio/static/media/mysqlLogo.6a92b45d5d1f811cb700.png",
+    "static/media/reduxLogo.png": "/portfolio/static/media/reduxLogo.b426d97de12d4dab1c06.png",
+    "static/media/arrows-up.png": "/portfolio/static/media/arrows-up.7ae7f5368c6bcd68b5f2.png",
+    "static/media/arrows-down.png": "/portfolio/static/media/arrows-down.45ddf282aa5bf03ebac9.png",
+    "static/media/todo.png": "/portfolio/static/media/todo.af6724e97c47cd8651a9.png",
+    "index.html": "/portfolio/index.html",
+    "static/media/arrow-down.svg": "/portfolio/static/media/arrow-down.95ec71a94a3ff7e9018f.svg",
+    "main.1621adcf.css.map": "/portfolio/static/css/main.1621adcf.css.map",
+    "main.fc164aa0.js.map": "/portfolio/static/js/main.fc164aa0.js.map",
+    "496.69ca0a3f.chunk.js.map": "/portfolio/static/js/496.69ca0a3f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1621adcf.css",
+    "static/js/main.fc164aa0.js"
+  ]
+}
