@@ -47,7 +47,7 @@
     background-color: rgba(0, 0, 0, 0.7);
     font-family: 'Josefin Sans', sans-serif;
     
-    @include for-phone {
+    @include for-tablet {
         width: 100%;
     }
     &__section {
@@ -130,10 +130,14 @@
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
     opacity: 1;
     border-radius: 20%;
+    text-align: justify;
     font-weight: 800;
     text-align: start;
     width: calc(30% - 10px); /* Adjust the width and margin as needed for your design */
   margin-bottom: 10px;
+  @include for-phone {
+    font-size: 16px;
+  }
   }
             }
         }
@@ -180,13 +184,23 @@
 
         &--techstack {
             margin-bottom: 20px !important;
-            opacity: 0.0;
             transform: translateY(200%);
         transition: all 0.8s;
             
+            & img {
+                @include for-phone {
+                    width: 40px;
+                }
+                @include for-smaller-techstack {
+                    width: 30px;
+                }
+                @include photo-for-phone {
+                    width: 20px;
+                }
+            }
             &.appear {
                 transform: translateY(0);
-                opacity: 1;
+
 
             }
             width: fit-content;
@@ -274,6 +288,8 @@
                 transition: all 0.3s ease;
                 position: relative;
                 z-index: 1;
+
+                
                 &:hover {
                     &.mybike,
                     &.nicegadgets,
@@ -343,6 +359,12 @@
                 & p {
                     margin-top: 0;
                     font-size: 20px;
+                    @include for-phone {
+                        font-size: 14px;
+                    }
+                    @include photo-for-phone {
+                        font-size: 12px;
+                    }
                 }
                 &.mybike {
                     background-image: url('../../../images/MyBike.png');
@@ -463,7 +485,11 @@
         margin-left: auto;
         margin-right: auto;
         animation: float 3s infinite;
+        @include photo-for-phone {
+            width: 360px;
+            height: 360px;
 
+            background-size: 120% 150%;        }
         &:hover {
             animation-play-state: paused;
         }
@@ -476,13 +502,18 @@
         margin-bottom: 20px;
         margin-top: 50px;
         transition: all 0.3s;
-
+        @include photo-for-phone {
+            font-size: 80px;
+        }
         
 
         &.small {
             font-size: 60px;
             margin-top: 100px;
             margin-bottom: 100px;
+            @include photo-for-phone {
+                font-size: 50px;
+            }
         }
     }
 

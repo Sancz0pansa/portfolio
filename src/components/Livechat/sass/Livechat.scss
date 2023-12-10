@@ -43,6 +43,7 @@
     font-family: 'Josefin Sans', sans-serif;
 
     &__header {
+        
         background: linear-gradient(to right, #5200AE, #4062bb);
         height: 40px;
         border-radius: 15px;
@@ -134,6 +135,7 @@
     }
 
     &__floating {
+        z-index: 2;
         color: white;
         position: fixed;
         right: 50px;

@@ -1,3 +1,4 @@
+@import '../../../utils/mixins.scss';
 .header {
     background-color: rgba(0, 0, 0, 0.7);
     height: 80px;
@@ -6,8 +7,14 @@
     font-family: 'Josefin Sans', sans-serif;
     display: flex;
     justify-content: center;
+    @include for-tablet {
+        width: 100%;
+    }
     &__nav {
         width: 70%;
+        @include for-tablet {
+            width: 100%;
+        }
         display: flex;
         justify-content: center;
         &--container {
