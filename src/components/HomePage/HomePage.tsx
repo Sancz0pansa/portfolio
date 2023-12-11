@@ -68,19 +68,19 @@ const [readMore, setReadMore] = useState(false);
                 <p id='side-paragraph' className='side-paragraph hidden-paragraph-left'>I firmly believe that life is a balance between work and the pursuit of passions. In my world, these elements coalesce seamlessly, contributing to my growth as both a professional and an individual. Join me on this journey of continuous improvement and exploration—it's not just about writing code; it's about crafting a fulfilling life.</p>
             <h3>TECH - STACK:</h3>
             <div className='container__section--techstack'>
-            <img src={htmlLogo} alt="" width={`64px`}/>
-            <img src={cssLogo} alt="" width={`64px`}/>
-            <img src={sassLogo} alt="" width={`64px`}/>
-            <img src={jsLogo} alt="" width={`64px`}/>
-            <img src={tsLogo} alt="" width={`64px`}/>
-            <img src={phpLogo} alt="" width={`64px`}/>
-            <img src={reactLogo} alt="" width={`64px`}/>
-            <img src={reduxLogo} alt="" width={`64px`}/>
-            <img src={mysqlLogo} alt="" width={`72px`}/>
-            <img src={postgresqlLogo} alt="" width={`60px`}/>
-            <img src={nodeLogo} alt="" width={`64px`}/>
-            <img src={sequelizeLogo} alt="" width={`64px`}/>
-            <img src={gitLogo} alt="" width={`64px`}/>
+            <img src={htmlLogo} alt="html logo" width={`64px`}/>
+            <img src={cssLogo} alt="css logo" width={`64px`}/>
+            <img src={sassLogo} alt="sass logo" width={`64px`}/>
+            <img src={jsLogo} alt="js logo" width={`64px`}/>
+            <img src={tsLogo} alt="ts logo" width={`64px`}/>
+            <img src={phpLogo} alt="php logo" width={`64px`}/>
+            <img src={reactLogo} alt="react logo" width={`64px`}/>
+            <img src={reduxLogo} alt="redux logo" width={`64px`}/>
+            <img src={mysqlLogo} alt="mysql logo" width={`72px`}/>
+            <img src={postgresqlLogo} alt="postgresql logo" width={`60px`}/>
+            <img src={nodeLogo} alt="node logo" width={`64px`}/>
+            <img src={sequelizeLogo} alt="sequelize logo" width={`64px`}/>
+            <img src={gitLogo} alt="github logo" width={`64px`}/>
             </div>
         <div className={`container__section--more ${readMore ? 'show' : ''}`}>
               <ul className='container__section--more-list'>
