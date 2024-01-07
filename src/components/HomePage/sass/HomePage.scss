@@ -293,7 +293,8 @@
                 &:hover {
                     &.mybike,
                     &.nicegadgets,
-                    &.todo {
+                    &.todo,
+                    &.racerythm {
                         transform: scale(1.1);
                         cursor: pointer;
                     }
@@ -357,6 +358,11 @@
                 }
 
                 & p {
+
+                    & ul {
+                        margin-bottom: 0;
+                    }
+
                     margin-top: 0;
                     font-size: 20px;
                     @include for-phone {
@@ -375,11 +381,14 @@
                 &.nicegadgets {
                     background-image: url('../../../images/nicegadgets.png');
                 }
+                &.racerythm {
+                    background-image: url('../../../images/racerythm.png');
+                }
             }
         }
 
         &--arrow {
-            height: 1095px;
+
             width: 1%;
             background-image: linear-gradient(
             #ff8a00 0%, 

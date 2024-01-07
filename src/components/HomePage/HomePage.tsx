@@ -1,26 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import './sass/HomePage.scss';
-import jsLogo from '../../images/techstack/jsLogo.png';
-import htmlLogo from '../../images/techstack/htmlLogo.png';
-import cssLogo from '../../images/techstack/cssLogo.png';
-import sassLogo from '../../images/techstack/sassLogo.png';
-import tsLogo from '../../images/techstack/tsLogo.png';
-import reactLogo from '../../images/techstack/reactLogo.png';
-import reduxLogo from '../../images/techstack/reduxLogo.png';
-import phpLogo from '../../images/techstack/phpLogo.png';
-import mysqlLogo from '../../images/techstack/mysqlLogo.png';
-import postgresqlLogo from '../../images/techstack/postgresqlLogo.png';
-import nodeLogo from '../../images/techstack/nodeLogo.png';
-import sequelizeLogo from '../../images/techstack/sequelizeLogo.png';
-import gitLogo from '../../images/techstack/gitLogo.png';
 import arrowsDown from '../../images/arrows-down.png'; 
 import arrowsUp from '../../images/arrows-up.png'; 
 import { EmployButton } from '../EmployButton/EmployButton';
 import { Footer } from '../Footer/Footer';
+import { Techstack } from '../Techstack/Techstack';
 
 
 
-export const HomePage: React.FC = () => {
+export const HomePage: React.FC = React.memo(() => {
 const [readMore, setReadMore] = useState(false);
 
      useEffect(() => {
@@ -67,50 +55,8 @@ const [readMore, setReadMore] = useState(false);
                 <p id='side-paragraph' className='side-paragraph hidden-paragraph-right'>Outside the realm of code, I embrace challenges and adventures. My dual passions—sculpting my physique and indulging in mixed martial arts—reveal my commitment to discipline, resilience, and personal growth. These qualities, cultivated through martial arts, transcend into both my professional and personal life, fostering self-confidence and perseverance.<br/><br/></p>
                 <p id='side-paragraph' className='side-paragraph hidden-paragraph-left'>I firmly believe that life is a balance between work and the pursuit of passions. In my world, these elements coalesce seamlessly, contributing to my growth as both a professional and an individual. Join me on this journey of continuous improvement and exploration—it's not just about writing code; it's about crafting a fulfilling life.</p>
             <h3>TECH - STACK:</h3>
-            <div className='container__section--techstack'>
-            <img src={htmlLogo} alt="html logo" width={`64px`}/>
-            <img src={cssLogo} alt="css logo" width={`64px`}/>
-            <img src={sassLogo} alt="sass logo" width={`64px`}/>
-            <img src={jsLogo} alt="js logo" width={`64px`}/>
-            <img src={tsLogo} alt="ts logo" width={`64px`}/>
-            <img src={phpLogo} alt="php logo" width={`64px`}/>
-            <img src={reactLogo} alt="react logo" width={`64px`}/>
-            <img src={reduxLogo} alt="redux logo" width={`64px`}/>
-            <img src={mysqlLogo} alt="mysql logo" width={`72px`}/>
-            <img src={postgresqlLogo} alt="postgresql logo" width={`60px`}/>
-            <img src={nodeLogo} alt="node logo" width={`64px`}/>
-            <img src={sequelizeLogo} alt="sequelize logo" width={`64px`}/>
-            <img src={gitLogo} alt="github logo" width={`64px`}/>
-            </div>
-        <div className={`container__section--more ${readMore ? 'show' : ''}`}>
-              <ul className='container__section--more-list'>
-                <li>HTML 5</li>
-                <li>CSS 3</li>
-                <li>SASS</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>React</li>
-                <li>Redux (toolkit)</li>
-                <li>React Native</li>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>Sequelize</li>
-                <li>MySQL</li>
-                <li>PostgreSQL</li>
-                <li>NPM</li>
-                <li>REST API</li>
-                <li>BEM methodology</li>
-                <li>Error handling</li>
-                <li>Responsive Web Design</li>
-                <li>GIT/GITHUB</li>
-                <li>VS Code</li>
-                <li>Postman</li>
-                <li>Scrum</li>
-                <li>Trello</li>
-                <li>PHP - basics</li>
-              </ul>
-            </div>
             
+            <Techstack readMore={readMore}/>
             
             <button onClick={() => setReadMore(!readMore)} className='container__section--button'>{readMore ? <div className='container__section--button-content'><img src={arrowsUp} alt='arrows-down'  width={'32px'} /> SEE LESS</div> : <div className='container__section--button-content'><img src={arrowsDown} alt='arrows-down'  width={'32px'}/> SEE MORE</div>}</button>
             </section>
@@ -131,6 +77,22 @@ const [readMore, setReadMore] = useState(false);
                         
                     </div>
                     <div className='container__section--column-element nicegadgets side-paragraph hidden-paragraph-left' onClick={() => window.open('https://fe-may23-bugbusters.github.io/product_catalog/', '_blank')}></div>
+                    <div className='container__section--column-element side-paragraph hidden-paragraph-left'>
+                    <p>Race Rhythm is a tool that allows you to calculate:
+                      <ul><li>The time it takes to complete a segment</li>
+                      <li>The pace of your run</li>
+                      <li>The length of your strides</li>
+                      <li>The distance you will cover</li>
+                      <li>What might be the optimal pace for your training.</li>
+                      </ul>
+                      {`(User progress tracking soon...)`}
+                    </p>
+                        <div>
+                            <a href='https://sancz0pansa.github.io/RaceRhythm/' className='demo' target='_blank' rel="noreferrer">DEMO </a>AND
+                            <a href='https://github.com/Sancz0pansa/RaceRhythm' className='code' target='_blank' rel="noreferrer"> CODE</a>
+                        </div>
+                        
+                    </div>
                 </div>
                 <div className='container__section--arrow '></div>
                 <div className='container__section--column'>
@@ -155,6 +117,7 @@ const [readMore, setReadMore] = useState(false);
                           </div>
                         
                     </div>
+                    <div className='container__section--column-element racerythm side-paragraph hidden-paragraph-right' onClick={() => window.open('https://sancz0pansa.github.io/RaceRhythm/', '_blank')}></div>
                 </div>
             </div>
             
@@ -169,4 +132,4 @@ const [readMore, setReadMore] = useState(false);
             <Footer />
         </div>
     </>
-)};
+)});
