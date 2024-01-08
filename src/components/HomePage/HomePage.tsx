@@ -78,13 +78,8 @@ const [readMore, setReadMore] = useState(false);
                     </div>
                     <div className='container__section--column-element nicegadgets side-paragraph hidden-paragraph-left' onClick={() => window.open('https://fe-may23-bugbusters.github.io/product_catalog/', '_blank')}></div>
                     <div className='container__section--column-element side-paragraph hidden-paragraph-left'>
-                    <p>Race Rhythm is a tool that allows you to calculate:
-                      <ul><li>The time it takes to complete a segment</li>
-                      <li>The pace of your run</li>
-                      <li>The length of your strides</li>
-                      <li>The distance you will cover</li>
-                      <li>What might be the optimal pace for your training.</li>
-                      </ul>
+                    <p>Race Rhythm is a tool that allows you to calculate optimal trainig pace and more...<br/>
+                      
                       {`(User progress tracking soon...)`}
                     </p>
                         <div>
@@ -108,9 +103,7 @@ const [readMore, setReadMore] = useState(false);
                     <div className='container__section--column-element todo side-paragraph hidden-paragraph-right' onClick={() => window.open('https://sancz0pansa.github.io/todo-app-project/', '_blank')}></div>
                     
                     <div className='container__section--column-element side-paragraph hidden-paragraph-right'>
-                    <p>Led a team of five programmers developing a responsive front-end for a phone retail application.
-                         Implemented a secure, in-house server and database for authentication and transactions.
-                          Achieved project success through collaboration and a strong security focus, documented for future updates.</p>
+                    <p>Led a team in developing a responsive front-end for a phone retail app. Implemented a secure, in-house server and database, ensuring project success through collaboration and strong security measures.</p>
                           <div>
                           <a href='https://fe-may23-bugbusters.github.io/product_catalog/' className='demo' target='_blank' rel="noreferrer">DEMO</a> AND 
                         <a href='https://github.com/orgs/fe-may23-BugBusters/repositories' className='code' target='_blank' rel="noreferrer"> CODE</a>

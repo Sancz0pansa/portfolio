@@ -11,7 +11,6 @@ import mysqlLogo from '../../images/techstack/mysqlLogo.png';
 import postgresqlLogo from '../../images/techstack/postgresqlLogo.png';
 import nodeLogo from '../../images/techstack/nodeLogo.png';
 import sequelizeLogo from '../../images/techstack/sequelizeLogo.png';
-import gitLogo from '../../images/techstack/gitLogo.png';
 
 type Props = {
     readMore: boolean;
@@ -31,7 +30,6 @@ export const Techstack: React.FC<Props> = React.memo(({readMore}) => (
         <img src={postgresqlLogo} alt="postgresql logo" width={`60px`} />
         <img src={nodeLogo} alt="node logo" width={`64px`} />
         <img src={sequelizeLogo} alt="sequelize logo" width={`64px`} />
-        <img src={gitLogo} alt="github logo" width={`64px`} />
     </div><div className={`container__section--more ${readMore ? 'show' : ''}`}>
             <ul className='container__section--more-list'>
                 <li>HTML 5</li>

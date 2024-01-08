@@ -186,7 +186,7 @@
             margin-bottom: 20px !important;
             transform: translateY(200%);
         transition: all 0.8s;
-            
+            display: flex;
             & img {
                 @include for-phone {
                     width: 40px;
@@ -255,6 +255,9 @@
                     transform: translateY(50%);
                 }
                 margin-left: 15px;
+                @include for-phone {
+                    margin-left: 10px;
+                }
                 transition: all 0.7s;
                 position: relative;
                 animation: float-more 2.5s infinite ;
@@ -278,6 +281,10 @@
 
             &-element {
                 height: 315px;
+                @include for-phone {
+                    height: 220px;
+                    font-size: 11px;
+                }
                 background-size: 100% 100%;
                 border-radius: 10px;
                 margin-bottom: 50px;
@@ -315,6 +322,7 @@
                     #b538ff 80%, 
                     #6057ff 100%);
                     position: relative;
+                    
                     &.demo {
                         &::before {
                             content: 'DEMO';  
@@ -388,7 +396,9 @@
         }
 
         &--arrow {
-
+            @include for-phone {
+                display: none;
+            }
             width: 1%;
             background-image: linear-gradient(
             #ff8a00 0%, 
