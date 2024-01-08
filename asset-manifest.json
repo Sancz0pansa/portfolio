@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2a201eac.css",
-    "main.js": "/portfolio/static/js/main.57a7a942.js",
+    "main.css": "/portfolio/static/css/main.54c0b577.css",
+    "main.js": "/portfolio/static/js/main.0d86db91.js",
     "static/js/496.69ca0a3f.chunk.js": "/portfolio/static/js/496.69ca0a3f.chunk.js",
     "static/media/mefull.jpg": "/portfolio/static/media/mefull.1137e7ac6b6454ee827c.jpg",
     "static/media/MyBike.png": "/portfolio/static/media/MyBike.4642fb50f92a8a745f98.png",
@@ -9,6 +9,7 @@
     "static/media/me.png": "/portfolio/static/media/me.686e88d78a984d7a2059.png",
     "static/media/phpLogo.png": "/portfolio/static/media/phpLogo.5eb77dd28bda8a45b2ca.png",
     "static/media/reactLogo.png": "/portfolio/static/media/reactLogo.2f2532db663fd5ec5f95.png",
+    "static/media/racerythm.png": "/portfolio/static/media/racerythm.6867412a6c8e9c021cde.png",
     "static/media/postgresqlLogo.png": "/portfolio/static/media/postgresqlLogo.ca9255f4d9e5eb6df760.png",
     "static/media/sequelizeLogo.png": "/portfolio/static/media/sequelizeLogo.8c389dc392d00f76753b.png",
     "static/media/sassLogo.png": "/portfolio/static/media/sassLogo.10c0cf1b6dc92c5581c8.png",
@@ -24,12 +25,12 @@
     "static/media/todo.png": "/portfolio/static/media/todo.af6724e97c47cd8651a9.png",
     "index.html": "/portfolio/index.html",
     "static/media/arrow-down.svg": "/portfolio/static/media/arrow-down.95ec71a94a3ff7e9018f.svg",
-    "main.2a201eac.css.map": "/portfolio/static/css/main.2a201eac.css.map",
-    "main.57a7a942.js.map": "/portfolio/static/js/main.57a7a942.js.map",
+    "main.54c0b577.css.map": "/portfolio/static/css/main.54c0b577.css.map",
+    "main.0d86db91.js.map": "/portfolio/static/js/main.0d86db91.js.map",
     "496.69ca0a3f.chunk.js.map": "/portfolio/static/js/496.69ca0a3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a201eac.css",
-    "static/js/main.57a7a942.js"
+    "static/css/main.54c0b577.css",
+    "static/js/main.0d86db91.js"
   ]
 }
